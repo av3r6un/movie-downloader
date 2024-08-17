@@ -1,0 +1,15 @@
+.venv/
+.idea/
+cache/
+__pycache__
+downloads/
+old/
+*.bat
+
+# single ignores
+
+init_print.py
+main.py
+rezka.py
+simple_fast.py
+simple.py
