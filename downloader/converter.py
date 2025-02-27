@@ -13,7 +13,7 @@ class Converter:
 
   def __init__(self, logger, meta: PLMetadata) -> None:
     self.st = time.time()
-    self.convertion_time = 0
+    self.conversion_time = 0
     self.meta = meta
     self.logger = logger
     self.vcodec, self.acodec = self._codecs(meta.video.url)
